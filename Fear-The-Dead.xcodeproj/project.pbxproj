@@ -20,6 +20,8 @@
 		822D88491EA0660100A54A34 /* fear_win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 822D88381EA0660100A54A34 /* fear_win.mp3 */; };
 		82EA0D071EA0683200E8D690 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82EA0D061EA0683200E8D690 /* LaunchScreen.xib */; };
 		82EA0D091EA06A7800E8D690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EA0D081EA06A7800E8D690 /* Assets.xcassets */; };
+		830247421FE4064900E3B509 /* Wall.sks in Resources */ = {isa = PBXBuildFile; fileRef = 830247411FE4064900E3B509 /* Wall.sks */; };
+		830247441FE406C700E3B509 /* Room.sks in Resources */ = {isa = PBXBuildFile; fileRef = 830247431FE406C700E3B509 /* Room.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		822D88381EA0660100A54A34 /* fear_win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_win.mp3; sourceTree = "<group>"; };
 		82EA0D061EA0683200E8D690 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = "Fear-The-Dead/LaunchScreen.xib"; sourceTree = "<group>"; };
 		82EA0D081EA06A7800E8D690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		830247411FE4064900E3B509 /* Wall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Wall.sks; sourceTree = "<group>"; };
+		830247431FE406C700E3B509 /* Room.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Room.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				822D880C1EA0599F00A54A34 /* GameScene.sks */,
+				830247411FE4064900E3B509 /* Wall.sks */,
+				830247431FE406C700E3B509 /* Room.sks */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -145,7 +151,7 @@
 				TargetAttributes = {
 					822D88061EA0599F00A54A34 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 3E7TCD55JT;
+						DevelopmentTeam = 84LWTY6T5F;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -176,6 +182,8 @@
 				82EA0D071EA0683200E8D690 /* LaunchScreen.xib in Resources */,
 				822D88471EA0660100A54A34 /* fear_moan.wav in Resources */,
 				822D88491EA0660100A54A34 /* fear_win.mp3 in Resources */,
+				830247441FE406C700E3B509 /* Room.sks in Resources */,
+				830247421FE4064900E3B509 /* Wall.sks in Resources */,
 				822D88461EA0660100A54A34 /* fear_lose.mp3 in Resources */,
 				82EA0D091EA06A7800E8D690 /* Assets.xcassets in Resources */,
 				822D88451EA0660100A54A34 /* fear_bg.mp3 in Resources */,
@@ -311,7 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3E7TCD55JT;
+				DEVELOPMENT_TEAM = 84LWTY6T5F;
 				INFOPLIST_FILE = "Fear-The-Dead/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Fear-The-Dead";
@@ -324,7 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3E7TCD55JT;
+				DEVELOPMENT_TEAM = 84LWTY6T5F;
 				INFOPLIST_FILE = "Fear-The-Dead/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Fear-The-Dead";
